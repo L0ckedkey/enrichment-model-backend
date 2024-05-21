@@ -3,5 +3,6 @@ from . import views
 
 urlpatterns = [
     path('hello', views.Hello),
-    path('predict', views.Predictor)
+    path('dimension', views.Dimension),
+    path('subdimension', views.Subdimension)
 ]
