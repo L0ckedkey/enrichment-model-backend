@@ -3,5 +3,5 @@ from . import views
 
 urlpatterns = [
     path('hello', views.Hello),
-    # path('predict', views.Predictor)
+    path('predict', views.Predictor)
 ]
