@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-)opzqhmfd_)=ddv5q2oov5+cg%pu1@ag(h1nic4_4t=(xz$zml
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    "model.entreindex.com"
+    '*'
 ]
 
 

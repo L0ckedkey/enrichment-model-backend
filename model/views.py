@@ -73,7 +73,7 @@ def Subdimension(request):
     body = json.loads(body_unicode)
     answer = body['answer']
     # Initialize list to store dimension sums
-    ind = [5,5,5,5,5,5,5,5,5,5,5]
+    dim = [5,5,5,5,5,5,5,5,5,5,5]
     indicator_text = ['Goverment support and regulation','Network','Resources','Ability to Innovate Based on Strength ans Specialization','Opportunities Engagement','Entrepreneureship Behavioral Capacity','Entrepreneurial Engagement Capacity','Entrepreneurial Attitude Capacity','Entrepreneurial Capacity','Indonesian Entrepreneurial Activities','Indonesia Individual Attributes']
 
     # Initialize list to store dimension sums
@@ -83,7 +83,7 @@ def Subdimension(request):
     for row in answer:
         start_index = 0
         row_sum = []
-        for dimensi in ind:
+        for dimensi in dim:
             end_index = start_index + dimensi
             row_sum.append(sum(row[start_index:end_index]))
             start_index = end_index
