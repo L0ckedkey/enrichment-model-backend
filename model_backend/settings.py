@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure-)opzqhmfd_)=ddv5q2oov5+cg%pu1@ag(h1nic4_4t=(xz$zml
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "model.entreindex.com"
+]
 
 
 # Application definition
